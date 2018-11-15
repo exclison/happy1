@@ -175,7 +175,7 @@ window.onload = function () {
             var Width = Math.floor(domWidth / leen);
             var s1Arr = [], s2Arr = [];
             for (var i = 0; i < domArr.length; i++) {
-                if (i <= leen) {
+                if (i < leen) {
                     s1Arr.push(domArr[i]);
                 } else {
                     s2Arr.push(domArr[i]);
